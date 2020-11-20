@@ -1,7 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <GenerateAssemblyInfo>true</GenerateAssemblyInfo> <!-- look for files in obj -->
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion>
+    <InformationalVersion>1.2.0-ci.3+Branch.main.Sha.c7f3728c509a212e8261b2c6baaad88eed6231a3</InformationalVersion>
+    <Version>1.2.0-ci0003</Version>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo> 
+    <!-- look for obj folder -->
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" NoWarn="NU1605" />
