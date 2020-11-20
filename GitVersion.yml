@@ -1,0 +1,9 @@
+assembly-versioning-scheme: MajorMinorPatch
+mode: Mainline
+next-version: 1.0.0
+branches:
+  master:
+    mode: ContinuousDeployment
+ignore:
+  sha: []
+merge-message-formats: {}
