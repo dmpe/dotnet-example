@@ -27,9 +27,9 @@ namespace GitVersion.Controllers
     //     [HttpGet]
     //     public Object GetInfoSecond()
     //     {
-    //         var assemblyName = typeof(GitToolsGitVersionControllerSecond).Assembly.GetName().Name;
-    //         var gitVersionInformationType = typeof(GitToolsGitVersionControllerSecond).Assembly.GetType("GitVersionInformation");
-    //         var versionField = gitVersionInformationType.GetField("Major");
+    //         // ThisAssembly tc = new ThisAssembly();
+    //         var versionNumber = ThisAssembly.GitCommitId;
+    //         return versionNumber;
 
     //         return versionField.GetValue(null);
     //     }
