@@ -15,7 +15,8 @@ namespace NerbankGitVersion.Controllers
         [HttpGet]
         public String GetInfo()
         {
-            var versionNumber = typeof(NerbankGitVersionController).Assembly.FullName;
+            // ThisAssembly tc = new ThisAssembly();
+            var versionNumber = ThisAssembly.GitCommitId;
             return versionNumber;
         }
     }
