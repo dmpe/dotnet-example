@@ -4,8 +4,8 @@
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <AssemblyVersion>1.0.0.0</AssemblyVersion>
     <FileVersion>1.0.0.0</FileVersion>
-    <InformationalVersion>1.0.0-ci.7+Branch.main.Sha.47a83f08beb19e865f7ce30dae355cae7799dfa0</InformationalVersion>
-    <Version>1.0.0-ci0007</Version>
+    <InformationalVersion>1.0.0-ci.10+Branch.main.Sha.94e1c4a66a5ed9c727cb305dccb612b99ff490e0</InformationalVersion>
+    <Version>1.0.0-ci0010</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" NoWarn="NU1605" />

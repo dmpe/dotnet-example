@@ -19,4 +19,20 @@ namespace GitVersion.Controllers
             return versionNumber;
         }
     }
+    
+    // [ApiController]
+    // [Route("[controller]")]
+    // public class GitToolsGitVersionControllerSecond : ControllerBase
+    // {
+    //     [HttpGet]
+    //     public Object GetInfoSecond()
+    //     {
+    //         var assemblyName = typeof(GitToolsGitVersionControllerSecond).Assembly.GetName().Name;
+    //         var gitVersionInformationType = typeof(GitToolsGitVersionControllerSecond).Assembly.GetType("GitVersionInformation");
+    //         var versionField = gitVersionInformationType.GetField("Major");
+
+    //         return versionField.GetValue(null);
+    //     }
+
+    // }
 }
