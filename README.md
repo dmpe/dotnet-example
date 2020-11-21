@@ -1,5 +1,5 @@
 # dotnet-example
-dotnet example with git version
+
 
 - set `export DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1`
 
@@ -7,4 +7,4 @@ dotnet example with git version
 
 - `dotnet-gitversion /updateassemblyinfo` there is no assembly file, but with more arguments you can get it, see <https://gitversion.net/docs/usage/command-line>
 
-- `dotnet-gitversion /updateprojectfiles`
+- `dotnet-gitversion /updateprojectfiles` update csproj file

@@ -15,7 +15,8 @@ namespace GitVersion.Controllers
         [HttpGet]
         public String GetInfo()
         {
-            return null;
+            var versionNumber = typeof(GitToolsGitVersionController).Assembly.FullName;
+            return versionNumber;
         }
     }
 }
